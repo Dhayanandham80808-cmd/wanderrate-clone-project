@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WanderRate</title>
+    <meta name="description" content="Travel discovery and planning">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header class="header">
+        <div class="header__logo">
+            <h1>WanderRate</h1>
+        </div>
+
+        <!-- Hamburger for mobile -->
+        <button class="header__hamburger" id="hamburger" aria-label="Open menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="header__nav" id="nav-menu">
+            <a href="#">Discover</a>
+            <a href="#">Plan a Trip</a>
+            <a href="#">Community</a>
+            <a href="#">Flights</a>
+        </nav>
+
+        <div class="header__actions">
+            <button class="btn-signin">Sign In</button>
+        </div>
+    </header>
+
+    <!-- HERO SEARCH -->
+    <section class="hero">
+        <h1 class="hero__title">Where To?</h1>
+
+        <div class="hero__tabs">
+            <div class="hero__tab">
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+                <span>Search All</span>
+            </div>
+            <div class="hero__tab">
+                <i class="fa-solid fa-house" style="color: rgb(0, 0, 0);"></i>
+                <span>Things To Do</span>
+            </div>
+            <div class="hero__tab">
+                <i class="fa-solid fa-bed"></i>
+                <span>Hotels</span>
+            </div>
+            <div class="hero__tab">
+                <i class="fa-solid fa-bowl-food"></i>
+                <span>Restaurants</span>
+            </div>
+        </div>
+
+        <div class="hero__search">
+            <div class="hero__search-input">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Places to go, things to do">
+            </div>
+            <button class="btn-search">Search</button>
+        </div>
+    </section>
+
+    <!-- PROMO BANNER -->
+    <section class="promo">
+        <div class="promo__card">
+            <div class="promo__image-wrap">
+                <img src="./image/c1.jpeg" alt="Teapotwins">
+                <span class="promo__tag">Teapotwins</span>
+            </div>
+            <div class="promo__content">
+                <h2>Find things to do for everything you're into</h2>
+                <p>Browse 400,000+ experiences and book with us.</p>
+                <button class="btn-book">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERESTS -->
+    <section class="interests">
+        <div class="interests__header">
+            <h2>Find Things to Do by Interest</h2>
+            <p>Whatever you're into, we've got it</p>
+        </div>
+        <div class="interests__grid">
+            <div class="interests__item">
+                <img src="./image/c2.jpeg" alt="Outdoor">
+                <span>Outdoor</span>
+            </div>
+            <div class="interests__item">
+                <img src="./image/c3.jpeg" alt="Food">
+                <span>Food</span>
+            </div>
+            <div class="interests__item">
+                <img src="./image/c9.jpeg" alt="Culture">
+                <span>Culture</span>
+            </div>
+            <div class="interests__item">
+                <img src="./image/c4.jpeg" alt="Water">
+                <span>Water</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCES NEAR PONDICHERRY -->
+    <section class="experiences">
+        <div class="experiences__header">
+            <h2>Explore experiences near Pondicherry</h2>
+            <p>Can't-miss picks near you</p>
+        </div>
+        <div class="experiences__grid">
+            <div class="experiences__card">
+                <img src="./image/c5.jpg" alt="Heritage Walking Tour">
+                <div class="experiences__info">
+                    <h3>Pondicherry Heritage Walking Tour of French Quarters</h3>
+                    <p class="rating">5.0 ⭐⭐⭐⭐⭐</p>
+                    <p class="price">from ₹2,520 per adult</p>
+                </div>
+            </div>
+            <div class="experiences__card">
+                <img src="./image/c6.jpg" alt="Mahabalipuram Trip">
+                <div class="experiences__info">
+                    <h3>Mahabalipuram &amp; Pondicherry one day trip from Chennai with Lunch</h3>
+                    <p class="rating">4.0 ⭐⭐⭐⭐</p>
+                    <p class="price">from ₹18,316 per adult</p>
+                </div>
+            </div>
+            <div class="experiences__card">
+                <img src="./image/c7.jpg" alt="Kolam Class">
+                <div class="experiences__info">
+                    <h3>Traditional Kolam Class in Pondicherry</h3>
+                    <p class="rating">4.0 ⭐⭐⭐⭐</p>
+                    <p class="price">from ₹932 per adult</p>
+                </div>
+            </div>
+            <div class="experiences__card">
+                <img src="./image/c8.jpg" alt="Pichavaram Mangrove">
+                <div class="experiences__info">
+                    <h3>Pichavaram Mangrove &amp; Nataraja Temple from Pondicherry with Lunch</h3>
+                    <p class="rating">5.0 ⭐⭐⭐⭐⭐</p>
+                    <p class="price">from ₹24,324 per adult</p>
+                </div>
+            </div>
+            <div class="experiences__card">
+                <img src="./image/c6.jpg" alt="Heritage Tour">
+                <div class="experiences__info">
+                    <h3>Pondicherry Heritage Walking Tour of French Quarters</h3>
+                    <p class="rating">5.0 ⭐⭐⭐⭐⭐</p>
+                    <p class="price">from ₹2,520 per adult</p>
+                </div>
+            </div>
+            <div class="experiences__card">
+                <img src="./image/c7.jpg" alt="Walking Tour">
+                <div class="experiences__info">
+                    <h3>Walking Tour of French Quarters</h3>
+                    <p class="rating">5.0 ⭐⭐⭐⭐⭐</p>
+                    <p class="price">from ₹2,520 per adult</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSPIRATION -->
+    <section class="inspiration">
+        <div class="inspiration__header">
+            <h2>Inspiration to get you going</h2>
+        </div>
+        <div class="inspiration__grid">
+            <div class="inspiration__card">
+                <img src="./image/c10.jpg" alt="Summer travel">
+                <h3>Our ultimate summer travel recs</h3>
+            </div>
+            <div class="inspiration__card">
+                <img src="./image/c11.jpg" alt="Amsterdam guide">
+                <h3>A queer traveler's guide to Amsterdam</h3>
+            </div>
+            <div class="inspiration__card">
+                <img src="./image/c12.jpg" alt="Midnight sun">
+                <h3>7 places to experience the midnight sun</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ICONIC PLACES -->
+    <section class="iconic">
+        <p class="iconic__label">Iconic places you need to see</p>
+        <div class="iconic__grid">
+            <div class="iconic__card">
+                <img src="./image/c16.jpg" alt="Rome">
+                <span>Rome, Italy</span>
+            </div>
+            <div class="iconic__card">
+                <img src="./image/c15.jpg" alt="Paris">
+                <span>Paris, France</span>
+            </div>
+            <div class="iconic__card">
+                <img src="./image/c13.jpg" alt="Las Vegas">
+                <span>Las Vegas, USA</span>
+            </div>
+            <div class="iconic__card">
+                <img src="./image/c14.jpg" alt="London">
+                <span>London, UK</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__links">
+            <div class="footer__col">
+                <p class="footer__col-title">About Tripadvisor</p>
+                <a href="#">About Us</a>
+                <a href="#">Press</a>
+                <a href="#">Resources and Policies</a>
+                <a href="#">Careers</a>
+                <a href="#">Trust &amp; Safety</a>
+                <a href="#">Contact us</a>
+                <a href="#">Tripadvisor Technology</a>
+            </div>
+            <div class="footer__col">
+                <p class="footer__col-title">Explore</p>
+                <a href="#">Write a Review</a>
+                <a href="#">Add a Place</a>
+                <a href="#">Join</a>
+                <a href="#">Travellers' Choice</a>
+                <a href="#">Help Centre</a>
+                <a href="#">Travel Stories</a>
+            </div>
+            <div class="footer__col">
+                <p class="footer__col-title">Business</p>
+                <a href="#">Owners &amp; DMO/CVB</a>
+                <a href="#">Business Advantage</a>
+                <a href="#">Sponsored Placements</a>
+                <a href="#">Advertise with Us</a>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copy">&copy;2026 Tripadvisor LLC All rights reserved.</p>
+            <div class="footer__legal">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy &amp; Cookies</a>
+                <a href="#">Cookie Consent</a>
+                <a href="#">How the site works</a>
+                <a href="#">Contact us</a>
+                <a href="#">Accessibility</a>
+            </div>
+            <div class="footer__social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile nav toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
